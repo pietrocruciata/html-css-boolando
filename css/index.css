@@ -72,7 +72,7 @@ img {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 60px;
+    bottom: 130px;
     
 }
 
@@ -82,7 +82,7 @@ img {
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 60px;
+    bottom: 130px;
     left: 60px;
 }
 
@@ -99,9 +99,41 @@ img {
     font-size: x-large;
 }
 
+.p-m-not{
+    padding: 0;
+    margin: 0;
+}
 
+.line-through{
+    text-decoration: line-through;
+}
 
+/*CARDS*/
 
+.card:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.card:hover .overlay{
+    position: absolute;
+    background-image: url(../img/1b.webp);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 500ms;
+}
+.card:hover .overlay {
+	opacity: 1;
+}
+
+.card:hover .badge {
+	opacity: 0;
+}
 /*BG AND COLOR*/
 
 .bg-orange {
@@ -119,4 +151,16 @@ img {
 .bg-green{
     background-color: green;
 
+}
+
+.c-red{
+    color: red;
+}
+
+.c-lightgrey{
+    color: lightgrey;
+}
+
+.c-black{
+    color: black;
 }
