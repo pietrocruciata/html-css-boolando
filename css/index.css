@@ -27,10 +27,15 @@ img {
 
 .container {
     padding: 10px;
+
 }
 
 .d-flex {
     display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
 }
 
 .gap-20 {
@@ -41,13 +46,61 @@ img {
     max-height: 30px;
 }
 
+.max-w{
+    max-width: 330px;
+}
+
+.p-relative{
+    position: relative;
+}
+
 .jc-space-around {
     justify-content: space-around;
+}
+
+.jc-center{
+    justify-content: center;
 }
 
 .p-top {
     padding-top: 10px;
 }
+
+.badge-red{
+    color: white;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    
+}
+
+.badge-green{
+    color: white;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.hearts{
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+
 
 /*BG AND COLOR*/
 
@@ -57,4 +110,13 @@ img {
 
 .c-white {
     color: white;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+
 }
