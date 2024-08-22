@@ -33,6 +33,7 @@ img {
 
 .d-flex {
     display: flex;
+    gap: 50px;
 }
 
 .f-wrap {
